@@ -14,7 +14,7 @@
 	<name>conference-demo</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>19</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -58,9 +58,9 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${project.parent.version}</version>
-				<configuration>
+<!-- 				<configuration>
 					<executable>true</executable>
-				</configuration>
+				</configuration> -->
 			</plugin>
 		</plugins>
 	</build>
